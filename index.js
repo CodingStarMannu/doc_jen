@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 
-
+    
   
   app.get("/health", (req, res) => {
     res.send("Hello World!");
@@ -17,3 +17,6 @@ app.listen(Port, (err) => {
     }
     console.log(`Server is up and running on Port ${Port}`);
   });
+
+
+  module.exports = app; 
