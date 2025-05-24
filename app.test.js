@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./index'); // Make sure path matches your file
+const app = require('./app'); // Make sure path matches your file
 
 describe('GET /health', () => {
   it('should return Hello World!', async () => {

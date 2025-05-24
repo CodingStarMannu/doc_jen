@@ -2,12 +2,6 @@ const express = require('express');
 const app = express();
 
 
-    
-  
-  app.get("/health", (req, res) => {
-    res.send("Hello World!");
-  });
-
 const Port = 8000;
 
 app.listen(Port, (err) => {
@@ -18,5 +12,3 @@ app.listen(Port, (err) => {
     console.log(`Server is up and running on Port ${Port}`);
   });
 
-
-  module.exports = app; 
